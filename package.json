@@ -1,0 +1,14 @@
+{
+  "name": "api-workshop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "repository": "git@github.com:locke189/api-workshop.git",
+  "author": "Juan Insuasti <jinsuasti@hugeinc.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.26.9"
+  }
+}

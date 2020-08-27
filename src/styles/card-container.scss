@@ -1,0 +1,11 @@
+$container-padding: 40px;
+$grid-colums: 344px 344px;
+
+
+.card-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: $grid-colums;
+  grid-gap: 10px;
+  padding: $container-padding;
+}
