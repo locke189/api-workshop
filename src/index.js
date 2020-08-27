@@ -2,7 +2,7 @@ import './styles/main.scss';
 import md5 from 'md5';
 console.log('Im ok!');
 
-// DO NOT MODIFY 
+// DO NOT MODIFY this code
 const cardTemplate = (options) => {
   const {
     avatarImgUrl,
@@ -41,12 +41,26 @@ const insertCard = (options) => {
 // DO NOT MODIFY ^^^^
 
 function main() {
-  // INSERT YOUR CODE HERE'
-  // timestamp
+  /*
+  Workshop (APIs) using fetch.
+
+  - Retrieve data from ANY API... (Bonus for using Marvel API)
+  - Use the data to populate the cards as you see fit
+  - You can not change the card API
+  - You cannot use static data
+  - Your score will decrease if you make multiple HTTP requests
+
+  ~~~ May the odds be with you ~~~
+  */
+  // Some help:
+  // use this timestamp
   const ts = new Date().getTime();
-  console.log(ts);
-  // use this to get the md5 hash
+  // use this as an example to get the md5 hash
   const hash = md5('1blablabal123123');
+
+  // INSERT YOUR CODE HERE ->
+  console.log(ts);
+
 
 
   // Card API example
